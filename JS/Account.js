@@ -1,7 +1,11 @@
-function Account() {
-  this.id;
-  this.name;
-  this.document;
-  this.email;
-  this.password;
+export class Account {
+  id = Number();
+  name = String();
+  document = String();
+  email = String();
+  password = String();
+  constructor(name = String(), document = String()) {
+    this.name = name;
+    this.document = document;
+  }
 }
