@@ -1,6 +1,6 @@
-class Car {
+export class Car {
   id: Number;
   license: String;
   driver: String;
-  passenger: String;
+  passenger: Number;
 }

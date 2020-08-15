@@ -1,4 +1,4 @@
-class Account {
+export class Account {
   id: Number;
   name: String;
   document: String;
