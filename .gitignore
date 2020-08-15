@@ -1,7 +1,7 @@
 
 # Created by https://www.toptal.com/developers/gitignore/api/java,python,node,visualstudiocode,linux,macos,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=java,python,node,visualstudiocode,linux,macos,windows
-
+TS/*.js
 ### Java ###
 # Compiled class file
 *.class
