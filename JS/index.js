@@ -1,5 +1,6 @@
 import { Car } from "./Car.js";
 import { Account } from "./Account.js";
+import { UberX } from "./UberX.js";
 const car = new Car("zdf-23s-23", new Account("Carlos Ramirez", "dr10"), 10);
 console.log(car.printDataCar());
 
@@ -15,7 +16,6 @@ car3.driver = new Account("Maximiliano Ramirez", "MRFX-199" );
 car3.passenger = 5;
 console.log(car3.printDataCar());
 
-const car4 = new Car();
-car4.license = "sdc-3s2-23";
-car4.passenger = 5;
-console.log(car4.printDataCar());
+const uberX = new UberX("uber-x342-32", new Account("Antonio Ramirez", "ANT-199" ), "BMW", "X5" );
+uberX.passenger = 5;
+console.log(uberX.printDataCar());
