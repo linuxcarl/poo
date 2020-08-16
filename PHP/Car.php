@@ -15,6 +15,6 @@ class Car
   {
     $name = $this->driver->name;
     $document = $this->driver->document;
-    echo "License: $this->license. Driver: $name. Document: $document. Passengers: $this->passenger";
+    echo "License: $this->license. Driver: $name. Document: $document. Passengers: $this->passenger <hr>";
   }
 }
