@@ -1,4 +1,5 @@
-import { Car } from "./Car";
+import { Car } from "./Car.js";
+import { Account } from "./Account.js";
 export class UberBlack extends Car {
   typeCarAccepted = Array();
   seatsMaterial = Array();
